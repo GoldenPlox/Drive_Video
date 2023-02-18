@@ -23,7 +23,7 @@ console.log("Resultado del string: "+ res);
 
 let doc = document.createElement("img");
 let cadena = 'https://drive.google.com/uc?export=view&id=' + res;
-//doc.src='https://drive,google.com/uc?export=view&id=${res}';
+//doc.src='https://drive.google.com/uc?export=view&id=${res}';
 console.log("resultado del string:" +res+ "url completa:"+ cadena);
 
 doc.src=cadena;
